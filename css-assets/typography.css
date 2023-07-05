@@ -1,0 +1,13 @@
+:root{
+  --text-font-size-multiplyer:  0.390625vw;
+}
+
+.h1{font-size: calc(15px + var(--text-font-size-multiplyer)*9);}
+.h2{font-size: calc(15px + var(--text-font-size-multiplyer)*7.5);}
+.h3{font-size: calc(15px + var(--text-font-size-multiplyer)*5);}
+.h4{font-size: calc(15px + var(--text-font-size-multiplyer)*4.5);}
+.h5{font-size: calc(15px + var(--text-font-size-multiplyer)*3);}
+.h6{font-size: calc(15px + var(--text-font-size-multiplyer)*1.5);}
+.h7{font-size: calc(15px + var(--text-font-size-multiplyer));}
+.h8{font-size: calc(15px + var(--text-font-size-multiplyer)*.5);}
+.h9{font-size: calc(15px + var(--text-font-size-multiplyer)*0.00001);}
